@@ -394,3 +394,29 @@ THIS PROJECT DEMONSTRATES:
 ✅ Production-ready code quality
 
 
+# Developer Q&A Platform
+
+A production-ready Stack Overflow clone built with modern technologies.
+
+## Quick Start
+
+1. Install dependencies: `npm install`
+2. Start services: `docker-compose up -d`
+3. Run migrations: `cd backend && npm run migrate`
+4. Start dev: `npm run dev`
+5. Open: http://localhost:3000
+
+## Tech Stack
+
+- Frontend: React, Next.js, TypeScript
+- Backend: Node.js, Express, TypeScript
+- Database: PostgreSQL, Redis, Elasticsearch
+- Queue: Kafka
+
+## Features
+
+- JWT Authentication
+- Real-time updates via WebSockets
+- Advanced search with Elasticsearch
+- Redis caching
+- Event-driven architecture with Kafka
